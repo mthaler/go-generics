@@ -1,10 +1,18 @@
 package main
 
-func main() {
+import "fmt"
 
+type myString string
+
+func (s myString) String() string {
+	return string(s)
 }
 
-func Join[T Stringer](things []T) (result string) {
+func main() {
+	fmt.Println(Join([]myString{ myString("a"), myString("b"), myString("c")}))
+}
+
+func Join[T fmt.Stringer](things []T) (result string) {
 	for _, v := range things {
 		result += v.String()
 	}
