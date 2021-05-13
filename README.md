@@ -29,3 +29,10 @@ This will take some time.
 
 ## Configue GoLand
 
+GoLand 2021.1 has experimental support for generics.
+
+### Enable generics
+
+Open the settings dialog with `Ctrl-Alt-S` or by selecting *File->Settings...* and select *Go*. Enable generics.
+
+![Settings](screenshots/settings.jpg)
