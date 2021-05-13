@@ -1,0 +1,12 @@
+package main
+
+func main() {
+
+}
+
+func Join[T Stringer](things []T) (result string) {
+	for _, v := range things {
+		result += v.String()
+	}
+	return result
+}
