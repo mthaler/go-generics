@@ -54,3 +54,5 @@ Open the settings dialog and select *Tools -> External Tools*.
 Right-click on the `generics.go2` file and run the go2go tool:
 
 ![Run go2go](screenshots/run_go2go.jpg)
+
+This will create a `generics.go` file and a binary.
