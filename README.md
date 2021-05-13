@@ -48,3 +48,9 @@ Open the settings dialog, select *Go -> GOROOT* and set it to the SDK that we ha
 Open the settings dialog and select *Tools -> External Tools*.
 
 ![Create go2go](screenshots/go2go.jpg)
+
+### Run the go2go tool
+
+Right-click on the `generics.go2` file and run the go2go tool:
+
+![Run go2go](screenshots/run_go2go.jpg)
