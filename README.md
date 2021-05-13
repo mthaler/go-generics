@@ -35,4 +35,10 @@ GoLand 2021.1 has experimental support for generics.
 
 Open the settings dialog with `Ctrl-Alt-S` or by selecting *File->Settings...* and select *Go*. Enable generics.
 
-![Settings](screenshots/settings.jpg)
+![Settings](screenshots/enable_generics.jpg)
+
+### Point GOROOT to the compiled SDK
+
+Open the settings dialog, select *Go->GOROOT* and set it to the SDK that we have just compiled.
+
+![Settings](screenshots/set_goroot.jpg)
